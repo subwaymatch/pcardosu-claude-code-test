@@ -1,0 +1,445 @@
+{
+  "source": {
+    "file": "26407c45-PCard-OSU-2014.csv",
+    "period": "Jan 01, 2014 to Dec 31, 2014"
+  },
+  "totals": {
+    "net": 33504148.34,
+    "gross_purchases": 34133593.6,
+    "credits": -629445.26,
+    "transactions": 116031,
+    "credit_transactions": 3791,
+    "cardholders": 2009,
+    "vendors": 17503,
+    "merchant_categories": 350,
+    "average_transaction": 288.75,
+    "median_transaction": 99.97
+  },
+  "monthly": [
+    {
+      "month": "Jan",
+      "net": 2690764.59,
+      "count": 9599
+    },
+    {
+      "month": "Feb",
+      "net": 2676414.92,
+      "count": 9597
+    },
+    {
+      "month": "Mar",
+      "net": 2893305.96,
+      "count": 9899
+    },
+    {
+      "month": "Apr",
+      "net": 3162984.96,
+      "count": 10849
+    },
+    {
+      "month": "May",
+      "net": 3059989.72,
+      "count": 10152
+    },
+    {
+      "month": "Jun",
+      "net": 2870245.42,
+      "count": 9879
+    },
+    {
+      "month": "Jul",
+      "net": 2867722.48,
+      "count": 9516
+    },
+    {
+      "month": "Aug",
+      "net": 2864495.62,
+      "count": 9729
+    },
+    {
+      "month": "Sep",
+      "net": 2892690.72,
+      "count": 10226
+    },
+    {
+      "month": "Oct",
+      "net": 3037910.67,
+      "count": 10951
+    },
+    {
+      "month": "Nov",
+      "net": 2298796.83,
+      "count": 8727
+    },
+    {
+      "month": "Dec",
+      "net": 2188826.45,
+      "count": 6907
+    }
+  ],
+  "peak_month": {
+    "month": "Apr",
+    "net": 3162984.96
+  },
+  "low_month": {
+    "month": "Dec",
+    "net": 2188826.45
+  },
+  "top_categories": [
+    {
+      "name": "dental/laboratory/medical/ophthalmic hosp eqip and sup.",
+      "net": 2475758.68,
+      "count": 6543
+    },
+    {
+      "name": "industrial supplies not elsewhere classified",
+      "net": 1451575.7,
+      "count": 4651
+    },
+    {
+      "name": "business services not elsewhere classified",
+      "net": 1446174.85,
+      "count": 3767
+    },
+    {
+      "name": "miscellaneous and specialty retail stores",
+      "net": 1406160.44,
+      "count": 5412
+    },
+    {
+      "name": "commercial equipment, not elsewhere classified",
+      "net": 1265726.79,
+      "count": 2845
+    },
+    {
+      "name": "book stores",
+      "net": 873288.87,
+      "count": 6801
+    },
+    {
+      "name": "dirct marketing/dirct marketers--not elsewhere classified",
+      "net": 850553.27,
+      "count": 1992
+    },
+    {
+      "name": "electrical parts and equipment",
+      "net": 782225.41,
+      "count": 2188
+    },
+    {
+      "name": "stationery, office supplies, printing and writing paper",
+      "net": 765950.74,
+      "count": 2864
+    },
+    {
+      "name": "plumbing and heating equipment and supplies",
+      "net": 716419.67,
+      "count": 2330
+    },
+    {
+      "name": "electronics stores",
+      "net": 641634.12,
+      "count": 1870
+    },
+    {
+      "name": "catalog merchants",
+      "net": 624807.58,
+      "count": 1480
+    }
+  ],
+  "top_vendors": [
+    {
+      "name": "amazon.com",
+      "net": 442489.82,
+      "count": 3168
+    },
+    {
+      "name": "amazon mktplace pmts",
+      "net": 403152.27,
+      "count": 3683
+    },
+    {
+      "name": "lowes #00241",
+      "net": 368887.18,
+      "count": 4107
+    },
+    {
+      "name": "vwr international inc",
+      "net": 366372.17,
+      "count": 1803
+    },
+    {
+      "name": "ww grainger",
+      "net": 277091.82,
+      "count": 1127
+    },
+    {
+      "name": "tfs fishersci ecom hus",
+      "net": 271055.58,
+      "count": 822
+    },
+    {
+      "name": "rexel2442",
+      "net": 250642.83,
+      "count": 902
+    },
+    {
+      "name": "b&c business products",
+      "net": 219194.84,
+      "count": 919
+    },
+    {
+      "name": "allegra print and imaging",
+      "net": 213012.08,
+      "count": 516
+    },
+    {
+      "name": "sigma aldrich us",
+      "net": 207491.42,
+      "count": 918
+    },
+    {
+      "name": "kinnunen sales & rent",
+      "net": 202550.1,
+      "count": 824
+    },
+    {
+      "name": "staples 00105288",
+      "net": 195093.56,
+      "count": 2022
+    }
+  ],
+  "top_cardholders": [
+    {
+      "name": "hines, g",
+      "net": 1595302.32,
+      "count": 3510
+    },
+    {
+      "name": "tornakian, m",
+      "net": 1182094.86,
+      "count": 2008
+    },
+    {
+      "name": "heusel, j",
+      "net": 627608.56,
+      "count": 2435
+    },
+    {
+      "name": "fitzpatrick, s",
+      "net": 437479.84,
+      "count": 342
+    },
+    {
+      "name": "bowers, r",
+      "net": 392761.34,
+      "count": 2392
+    },
+    {
+      "name": "munday, t",
+      "net": 340329.11,
+      "count": 1102
+    },
+    {
+      "name": "yarbrough-tessman, v",
+      "net": 320016.94,
+      "count": 536
+    },
+    {
+      "name": "teel, j",
+      "net": 282056.99,
+      "count": 877
+    },
+    {
+      "name": "clark, m",
+      "net": 275898.62,
+      "count": 629
+    },
+    {
+      "name": "turner, d",
+      "net": 242938.28,
+      "count": 797
+    },
+    {
+      "name": "bailey, j",
+      "net": 222736.87,
+      "count": 725
+    },
+    {
+      "name": "whitmore, d",
+      "net": 209114.21,
+      "count": 555
+    }
+  ],
+  "concentration": {
+    "top10_cardholder_share": 17.0,
+    "top10_vendor_share": 9.0
+  },
+  "travel": [
+    {
+      "type": "air travel",
+      "net": 561547.58,
+      "count": 1625
+    },
+    {
+      "type": "room charges",
+      "net": 1605548.45,
+      "count": 4258
+    }
+  ],
+  "weekday": [
+    {
+      "day": "Monday",
+      "net": 4987921.19,
+      "count": 17217
+    },
+    {
+      "day": "Tuesday",
+      "net": 6780399.49,
+      "count": 22806
+    },
+    {
+      "day": "Wednesday",
+      "net": 6908396.71,
+      "count": 23662
+    },
+    {
+      "day": "Thursday",
+      "net": 6730925.55,
+      "count": 22632
+    },
+    {
+      "day": "Friday",
+      "net": 5929974.31,
+      "count": 19996
+    },
+    {
+      "day": "Saturday",
+      "net": 1482222.38,
+      "count": 6331
+    },
+    {
+      "day": "Sunday",
+      "net": 684308.71,
+      "count": 3387
+    }
+  ],
+  "posting": {
+    "median_lag_days": 1.0,
+    "within_two_days_share": 75.6
+  },
+  "data_quality": {
+    "potential_duplicate_rows": 5213,
+    "duplicate_rule": "same date, vendor, amount and cardholder",
+    "general_purchase_share": 65.5
+  },
+  "largest_transactions": [
+    {
+      "date": "2014-08-18",
+      "amount": 29731.61,
+      "vendor": "oec otis elevator co",
+      "cardholder": "clark, c",
+      "description": "general purchase"
+    },
+    {
+      "date": "2014-05-22",
+      "amount": 27657.55,
+      "vendor": "wingate manhattan",
+      "cardholder": "ropers, a",
+      "description": "room charges"
+    },
+    {
+      "date": "2014-05-23",
+      "amount": 22764.84,
+      "vendor": "hampton inn & suites crn",
+      "cardholder": "ropers, a",
+      "description": "room charges"
+    },
+    {
+      "date": "2014-09-08",
+      "amount": 21243.93,
+      "vendor": "magdalene college",
+      "cardholder": "ropers, a",
+      "description": "general purchase"
+    },
+    {
+      "date": "2014-12-24",
+      "amount": 19233.28,
+      "vendor": "cockrell eyecare center",
+      "cardholder": "stover, c",
+      "description": "general purchase"
+    },
+    {
+      "date": "2014-08-28",
+      "amount": 16517.2,
+      "vendor": "southwes 5262393866444",
+      "cardholder": "ropers, a",
+      "description": "air travel"
+    },
+    {
+      "date": "2014-09-24",
+      "amount": 15327.36,
+      "vendor": "hilton boston downtown",
+      "cardholder": "williams, j",
+      "description": "room charges"
+    },
+    {
+      "date": "2014-08-01",
+      "amount": 13186.64,
+      "vendor": "rown nyc fd",
+      "cardholder": "bilbeisi, s",
+      "description": "room charges"
+    },
+    {
+      "date": "2014-01-24",
+      "amount": 12600.0,
+      "vendor": "tlc painting",
+      "cardholder": "clark, c",
+      "description": "general purchase"
+    },
+    {
+      "date": "2014-04-04",
+      "amount": 12380.0,
+      "vendor": "aabb-amer. asso. blood",
+      "cardholder": "clark, c",
+      "description": "general purchase"
+    }
+  ],
+  "largest_credits": [
+    {
+      "date": "2014-04-13",
+      "amount": -6266.53,
+      "vendor": "freeman av chicago",
+      "cardholder": "ropers, a",
+      "description": "general purchase"
+    },
+    {
+      "date": "2014-05-30",
+      "amount": -4999.0,
+      "vendor": "tiffin systems",
+      "cardholder": "mulder, p",
+      "description": "general purchase"
+    },
+    {
+      "date": "2014-02-11",
+      "amount": -4781.59,
+      "vendor": "freddie pauls steakhouse",
+      "cardholder": "biggs, j",
+      "description": "general purchase"
+    },
+    {
+      "date": "2014-10-29",
+      "amount": -4232.0,
+      "vendor": "intl cold storage",
+      "cardholder": "tornakian, m",
+      "description": "general purchase"
+    },
+    {
+      "date": "2014-12-08",
+      "amount": -4139.96,
+      "vendor": "claim adj/air canada 014",
+      "cardholder": "ward, j",
+      "description": "general purchase"
+    }
+  ]
+}
