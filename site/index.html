@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>OSU Purchase Card Spending, 2014</title>
+  <meta name="description" content="Analysis of Oklahoma State University purchase card (P-Card) transactions for calendar year 2014.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#overview">OSU P-Card 2014</a>
+    <nav class="sections" aria-label="Sections">
+      <a href="#overview">Overview</a>
+      <a href="#monthly">Monthly</a>
+      <a href="#categories">Categories</a>
+      <a href="#vendors">Vendors</a>
+      <a href="#cardholders">Cardholders</a>
+      <a href="#travel">Travel</a>
+      <a href="#timing">Timing</a>
+      <a href="#outliers">Outliers</a>
+      <a href="#notes">Notes</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="slide hero" id="overview">
+      <p class="eyebrow">Oklahoma State University &middot; Purchase Card Program</p>
+      <h1>Where the 2014 purchase card dollars went</h1>
+      <p class="lede">An overview of every purchase card transaction posted in calendar year 2014: how much was spent, when, with whom, and by whom.</p>
+      <div class="stat-grid" id="hero-stats" aria-live="polite">
+        <p class="loading">Loading data&hellip;</p>
+      </div>
+      <p class="hint">Use the arrow keys or scroll to move between sections.</p>
+    </section>
+
+    <section class="slide" id="monthly">
+      <p class="eyebrow">01 &middot; Monthly trend</p>
+      <h2>Spending peaked in April and bottomed out in December</h2>
+      <div class="chart chart-columns" id="monthly-chart"></div>
+      <div class="callouts" id="monthly-callouts"></div>
+    </section>
+
+    <section class="slide" id="categories">
+      <p class="eyebrow">02 &middot; Merchant categories</p>
+      <h2>Medical equipment, industrial supplies and business services lead</h2>
+      <p class="sub">Top 12 merchant category codes (MCC) by net spend.</p>
+      <div class="chart chart-bars" id="category-chart"></div>
+    </section>
+
+    <section class="slide" id="vendors">
+      <p class="eyebrow">03 &middot; Vendors</p>
+      <h2>Amazon, Lowe's and VWR top the vendor list</h2>
+      <p class="sub">Top 12 vendors by net spend. Vendor names are shown as recorded in the source file, lowercased.</p>
+      <div class="chart chart-bars" id="vendor-chart"></div>
+    </section>
+
+    <section class="slide" id="cardholders">
+      <p class="eyebrow">04 &middot; Cardholders</p>
+      <h2>Ten cardholders account for 17% of net spend</h2>
+      <div class="split">
+        <div class="chart chart-bars" id="cardholder-chart"></div>
+        <div class="concentration" id="concentration"></div>
+      </div>
+    </section>
+
+    <section class="slide" id="travel">
+      <p class="eyebrow">05 &middot; Travel</p>
+      <h2>Room charges and air travel are about 6.5% of net spend</h2>
+      <div class="stat-grid" id="travel-stats"></div>
+      <p class="sub">Shares are of net spend. Travel is identified from the transaction description field, so transactions with a different description are not counted here.</p>
+    </section>
+
+    <section class="slide" id="timing">
+      <p class="eyebrow">06 &middot; Timing</p>
+      <h2>Most purchases happen on weekdays, and most post within two days</h2>
+      <div class="split">
+        <div class="chart chart-bars" id="weekday-chart"></div>
+        <div class="stat-grid stat-grid-compact" id="timing-stats"></div>
+      </div>
+    </section>
+
+    <section class="slide" id="outliers">
+      <p class="eyebrow">07 &middot; Outliers</p>
+      <h2>The largest purchases and credits</h2>
+      <h3>Largest transactions</h3>
+      <div class="table-wrap" id="largest-table"></div>
+      <h3>Largest credits and refunds</h3>
+      <div class="table-wrap" id="credits-table"></div>
+    </section>
+
+    <section class="slide" id="notes">
+      <p class="eyebrow">08 &middot; Method and data notes</p>
+      <h2>How these numbers were produced</h2>
+      <ul class="notes">
+        <li><strong>Net spend</strong> is the sum of all transaction amounts, including credits and refunds. Gross purchases are shown separately.</li>
+        <li><strong>Period</strong> is based on the transaction date. Monthly totals group transactions by the calendar month of the transaction date.</li>
+        <li><strong>Potential duplicates</strong> are rows that share the same transaction date, vendor, amount and cardholder. They are flagged for review, not removed, because repeat purchases of the same amount are common.</li>
+        <li><strong>Names and vendors</strong> are shown as they appear in the source file. Vendor names were lowercased and whitespace was collapsed for grouping.</li>
+        <li><strong>Reproduce</strong>: run <code>python scripts/build_summary.py path/to/PCard-OSU-2014.csv</code> to regenerate <code>site/data/summary.json</code>.</li>
+      </ul>
+      <p class="footer-note">Source: OSU purchase card transactions, calendar year 2014.</p>
+    </section>
+  </main>
+
+  <script src="app.js" defer></script>
+</body>
+</html>
